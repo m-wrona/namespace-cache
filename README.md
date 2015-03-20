@@ -2,7 +2,7 @@ Namespace cache (NCache)
 ====
 
 Abstraction layer for providing cache namespaces. <br/>
-Namespaces allow creating separate regions in cache (for chosen groups, users etc.) and <br/>
+Namespaces allow creating separate areas in cache region (for chosen groups, users etc.) and <br/>
 cleansing of only needed part. Each namespace is separate. <br/>
 Any cache provider can be wrapped with virtual namespaces (mem-cached, ehcache etc.).  <br/>
 Namespace-cache can be used with Spring or as a stand-alone solution.  <br/>
